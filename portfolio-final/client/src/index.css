@@ -1,0 +1,10 @@
+body {
+    background-color: #EEE;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
+  }
+   
+  #container li {
+    margin-bottom: 10px;
+  }

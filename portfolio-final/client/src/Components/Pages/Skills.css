@@ -1,0 +1,24 @@
+p {
+    color: white; 
+}
+
+.SkillsImg, .SkillsImg2, .SkillsImg3 {
+    margin-left: auto;
+    margin-right: auto; 
+    }
+
+
+h1, h3 {
+    text-align: center;
+  
+}
+
+.SkillCol {
+    width: 33.3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
+
+}

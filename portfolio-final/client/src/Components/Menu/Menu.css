@@ -1,0 +1,49 @@
+#flyoutMenu {
+    width: 100vw;
+    height: 50vh;
+    background-color: yellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: transform .3s
+                cubic-bezier(0, .52, 0, 1);
+    z-index: 1000;
+    cursor: zoom-out;
+
+  }
+   
+  #flyoutMenu.hide {
+    transform: translate3d(0, -50vh, 0);
+  }
+   
+  #flyoutMenu.show {
+    transform: translate3d(0vw, 0, 0);
+    overflow: hidden;
+  }
+   
+  #flyoutMenu h2 a {
+    color: #333;
+    margin-left: 15px;
+    text-decoration: none;
+  }
+   
+  #flyoutMenu h2 a:hover {
+    text-decoration: underline;
+  }
+
+  .hoverIcon{
+    cursor: zoom-in;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    opacity:0.6;
+    color: white;
+    text-align: center;
+    height: 3vh;
+    
+
+  }

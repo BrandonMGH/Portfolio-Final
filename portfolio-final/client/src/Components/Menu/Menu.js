@@ -16,7 +16,7 @@ class Menu extends Component {
         <h2><a href="#">About Me</a></h2>
         <h2><a href="#">Portfolio</a></h2>
         <h2><a href="#">Contact</a></h2>
-        <div class="footer">
+        <div className="footer">
           <p className="hoverIcon">Place Drag Down Item here</p>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Bounce from 'react-reveal/Bounce';
 import "./Title.css";
 
 class Title extends Component {
@@ -6,8 +7,8 @@ class Title extends Component {
     
     return (
       <div className="title">
-        <h1>Brandon Harris</h1>
-        <h2>Full Stack Web Developer</h2>
+        <Bounce Top><h1>Brandon Harris</h1></Bounce>
+        <Bounce Bottom><h2>Full Stack Web Developer</h2></Bounce>
       </div>
     );
   }

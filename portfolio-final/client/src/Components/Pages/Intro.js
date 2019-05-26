@@ -24,7 +24,7 @@ const particleOpt = {
         },
         move: {
             random: true,
-            speed: 1,
+            speed: 5,
             direction: "top",
             out_mode: "out"
         }

@@ -3,35 +3,48 @@ import Particles from "react-particles-js";
 
 
 class Canvas extends Component {
-  // state = { width: "0px", height: "px" };
-  // componentDidMount() {
-  //   this.updateWindowDimensions();
-  //   window.addEventListener("resize", this.updateWindowDimensions);
-  // }
-  // componentWillUnmount() {
-  //   window.removeEventListener("resize", this.updateWindowDimensions);
-  // }
-  // updateWindowDimensions = () => {
-  //   this.setState({
-  //     width: `${window.innerWidth}px`,
-  //     height: `${window.innerHeight}px`
-  //   });
-  // };
+  state = { width: "0px", height: "px" };
+  componentDidMount() {
+    this.updateWindowDimensions();
+    window.addEventListener("resize", this.updateWindowDimensions);
+  }
+  componentWillUnmount() {
+    window.removeEventListener("resize", this.updateWindowDimensions);
+  }
+  updateWindowDimensions = () => {
+    this.setState({
+      width: `${window.innerWidth}px`,
+      height: `${window.innerHeight}px`
+    });
+  };
   render() {
-    // const { width, height } = this.state;
-    // console.log(width, height);
+    const { width, height } = this.state;
+    console.log(width, height);
     return (
       <Particles 
-        // {...this.state}
+        {...this.state}
         params={{
           particles: {
             number: {
-              value: 100
+              value: 200
+            },
+            move: {
+              enable: true,
+              speed: 2,
+              random: true,
+              direction: "none",
+              bounce: true,
+              out_mode: "bounce",
+              attract: {
+                enable: true,
+                rotateX: 10,
+                rotateY: 10
+              }
             },
             shape: {
-              type: "square",
+              type: "cirle",
               stroke: {
-                width: 0,
+                width: 2,
                 color: "#b6b2b2"
               }
             },
@@ -39,7 +52,7 @@ class Canvas extends Component {
               value: ["#383838"]
             },
             size: {
-              value: 5
+              value: 10
             },
           },
           interactivity: {

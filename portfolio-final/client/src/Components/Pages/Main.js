@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 // import me from './me.jpg'
+import Fade from 'react-reveal/Fade';
 import Intro from './Intro'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
@@ -58,8 +59,9 @@ class Main extends Component {
           {/* <MenuButton handleMouseDown={this.handleMouseDown}/> */}
           <Menu handleMouseDown={this.handleMouseDown}
             menuVisibility={this.state.visible} />
-        </div>
+        {/* </Col> */}
         <Intro />
+        </div>
        <AboutMe />
        <Skills />
        <Portfolio />

@@ -29,19 +29,19 @@ class PortfolioCarousel extends React.Component {
         <Carousel className="Carousel">
                 <div className="CarouselImgContainer">
                     <img className="CarouselImg" src={got2} align="middle"/>
-                    <p className="legend">HTML/CSS/Javascript</p>
+                    <p className="legend">HTML/CSS/Javascript Projects</p>
                 </div>
                 <div>
                     <img className="CarouselImg" src={chatbox} align="middle"/>
-                    <p className="legend">Node</p>
+                    <p className="legend">Node Projects</p>
                 </div>
                 <div>
                     <img className="CarouselImg" src={cameragirl} align="middle"/>
-                    <p className="legend">React</p>
+                    <p className="legend">React Projects</p>
                 </div>
                 <div>
                     <img className="CarouselImg" src={codeall} align="middle" />
-                    <p className="legend">All</p>
+                    <p className="legend">All Projects</p>
                 </div>
             </Carousel>
            

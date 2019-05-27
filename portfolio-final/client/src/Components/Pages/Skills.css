@@ -1,5 +1,5 @@
-p {
-    color: white; 
+.SkillsBlack {
+    color: black 
 }
 
 .SkillsImg, .SkillsImg2, .SkillsImg3 {
@@ -11,6 +11,10 @@ p {
 h1, h3 {
     text-align: center;
   
+}
+
+h1 {
+    padding-top: 50px; 
 }
 
 .SkillCol {

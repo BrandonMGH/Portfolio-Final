@@ -5,11 +5,13 @@ import Col from 'react-bootstrap/Col'
 import ReactDOM from 'react-dom';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import got from './got.jpg'
-import codespot from './codespot.PNG'
-import cameragirl from './cameragirl.png'
+import got2 from './got2.jpg'
+import chatbox from './chatbox.jpg'
+import cameragirl from './cameragirl.jpg'
+import codeall from './codeall.jpg'
 // import PortfolioImages from './PortfolioImags'
 import './PortfolioCarousel.css'
+import All from '../PortforolioProjectLinks/All'
 
 
 
@@ -22,25 +24,31 @@ class PortfolioCarousel extends React.Component {
   render() {
   
     return (
-      <div >
+      <div className="Black">
+        <h1>-PORTFOLIO-</h1>
         <Carousel className="Carousel">
-                <div>
-                    <img className="CarouselImg" src={got}/>
+                <div className="CarouselImgContainer">
+                    <img className="CarouselImg" src={got2} align="middle"/>
                     <p className="legend">HTML/CSS/Javascript</p>
                 </div>
                 <div>
-                    <img className="CarouselImg" src={codespot}/>
+                    <img className="CarouselImg" src={chatbox} align="middle"/>
                     <p className="legend">Node</p>
                 </div>
                 <div>
-                    <img className="CarouselImg" src={cameragirl}/>
+                    <img className="CarouselImg" src={cameragirl} align="middle"/>
                     <p className="legend">React</p>
                 </div>
                 <div>
-                    <img className="CarouselImg" src="https://cdn-images-1.medium.com/max/2600/0*HICLyAdNSIyT0ODU.jpg" />
+                    <img className="CarouselImg" src={codeall} align="middle" />
                     <p className="legend">All</p>
                 </div>
             </Carousel>
+           
+              <div className="White"><All /></div>
+
+     
+       
       </div>
     );
   }

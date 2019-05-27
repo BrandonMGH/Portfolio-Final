@@ -27,7 +27,10 @@ const particleOpt = {
             speed: 5,
             direction: "top",
             out_mode: "out"
-        }
+        },
+        color: {
+            value: ["#000000"]
+          },
     },
     interactivity: {
         events: {

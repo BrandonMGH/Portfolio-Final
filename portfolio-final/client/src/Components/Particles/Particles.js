@@ -49,7 +49,7 @@ class Canvas extends Component {
               }
             },
             color: {
-              value: ["#383838"]
+              value: ["#000000"]
             },
             size: {
               value: 10

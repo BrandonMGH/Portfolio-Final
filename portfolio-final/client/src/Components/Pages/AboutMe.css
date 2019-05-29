@@ -22,8 +22,8 @@
 
 .AboutMeParticles{
     background-image: url('https://im-dev-proxy.imgix.net/https%3A%2F%2Fasset-1.theoutline.com%2Fv1%2Fduotone%2Fpreview%3Fend%3DFFFFFF%26start%3D000000%26url%3Dhttps%253A%252F%252Foutline-prod.imgix.net%252F20180814-4lPZtkgNJYAiRLfucz6O%253Fs%253D88620d79e7bf001b826427ecb65b6e35?auto=format&q=60&w=1280&s=37e8012dc860c8819fa1635e8fc876d5');
-    border-top-style: inset;
-    border-bottom-style: inset;
+    border-style: solid;
+    border-color: grey; 
     padding: 0px; 
     overflow: hidden; 
     background-size: cover;

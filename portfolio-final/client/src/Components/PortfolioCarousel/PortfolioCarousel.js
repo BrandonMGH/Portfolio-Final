@@ -24,7 +24,7 @@ class PortfolioCarousel extends React.Component {
 
     state = {
      
-      shownProject: null
+      shownProject: <All />
     };
 
     handleButtonClickOne = () => {
@@ -41,35 +41,56 @@ handleButtonClickFour = () => {
 }
 
   render() {
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
+  
     return (
-      <div className="Black">
-        <h1>-PORTFOLIO-</h1>
-          <Carousel className="Carousel">
+    <div className="Black">
+        <h1 classname="photoCarouseltitle" align="middle">-PORTFOLIO-</h1>
+        <div onClick={this.handleButtonClickOne} className="box">
+        <img className="CarouselImg" src={got2} align="middle"></img>
+        <div className="text">
+            <h2>JAVASCRIPT PROJECTS</h2>
+            
+        </div>
+        </div>
+        <div onClick={this.handleButtonClickTwo} className="box">
+        <img className="CarouselImg" src={chatbox} align="middle"></img>
+        <div className="text">
+            <h2>NODE PROJECTS</h2>
+        </div>
+        </div>
+        <div onClick={this.handleButtonClickThree} className="box">
+        <img className="CarouselImg" src={cameragirl} align="middle"></img>
+        <div className="text">
+            <h2>REACT PROJECTS</h2>
+        </div>
+        </div>
+        <div onClick={this.handleButtonClickFour} className="box">
+        <img className="CarouselImg" src={codeall} align="middle"></img>
+        <div className="text">
+            <h2>ALL PROJECTS</h2>
+        </div>
+        </div>
+
+          {/* <Carousel className="Carousel">
             <div >
               <img  className="CarouselImg" src={got2} align="middle" />
-              <p onClick={this.handleButtonClickOne} className="legend">HTML/CSS/Javascript Projects</p>
+              <p onClick={this.handleButtonClickOne} className="legend">View HTML/CSS/Javascript Projects</p>
+             
             </div>
             <div >
               <img  className="CarouselImg" src={chatbox} align="middle" />
-              <p onClick={this.handleButtonClickTwo} className="legend">Node Projects</p>
+              <p onClick={this.handleButtonClickTwo} className="legend">View Node Projects</p>
             </div>
             <div >
               <img className="CarouselImg" src={cameragirl} align="middle" />
-              <p  onClick={this.handleButtonClickThree} className="legend">React Projects</p>
+              <p  onClick={this.handleButtonClickThree} className="legend">View React Projects</p>
             </div>
             <div>
               <img className="CarouselImg" src={codeall} align="middle" />
-              <p onClick={this.handleButtonClickFour} className="legend">All Projects</p>
+              <p onClick={this.handleButtonClickFour} className="legend">View All Projects</p>
             </div>
           </Carousel>
-         
+          */}
 
           <div className="White">{this.state.shownProject}</div>
       </div>

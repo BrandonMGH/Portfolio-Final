@@ -33,7 +33,7 @@ class All extends Component {
     return (
       <Container>
         <Row>
-          <h3 className="titleCol">HTML/CSS/Javascript</h3> 
+          <h3 className="titleCol">HTML/CSS/Javascript Projects</h3> 
           {javascriptProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">
@@ -50,7 +50,7 @@ class All extends Component {
         </Row>
         <h3 className="invisiline">_</h3>  
         <Row>
-        <h3 className="titleCol">NODE</h3> 
+        <h3 className="titleCol">NODE Projects</h3> 
           {nodeProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">
@@ -65,7 +65,7 @@ class All extends Component {
         </Row>
         <h3 className="invisiline">_</h3> 
         <Row>
-          <h3 className="titleCol">React</h3> 
+          <h3 className="titleCol">React Projects</h3> 
           {reactProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">

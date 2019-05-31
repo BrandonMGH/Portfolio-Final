@@ -1,5 +1,7 @@
 .SkillsBlack {
-    color: black 
+    color: black;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .SkillsImg, .SkillsImg2, .SkillsImg3 {

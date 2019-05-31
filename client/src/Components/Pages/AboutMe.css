@@ -26,11 +26,11 @@
     border-style: solid;
     border-color: grey; 
     padding: 0px; 
-    overflow: hidden; 
+    
     background-size: cover;
     background-position: center;
     /* border-radius: 50%; */
-    display: flex; 
+
     justify-content: center; 
     z-index: 1000;
 }

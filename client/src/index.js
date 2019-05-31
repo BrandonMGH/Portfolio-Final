@@ -10,7 +10,7 @@ ReactDOM.render(
 
   <Route exact path="/" component={Main} />
   </Router>, 
-  document.querySelector("#container")
+  document.querySelector("#body")
  
   
 );

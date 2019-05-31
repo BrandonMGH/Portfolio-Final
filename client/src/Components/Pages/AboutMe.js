@@ -17,10 +17,10 @@ class AboutMe extends Component {
   render() {
     return (
       <div className="container">
-        <div className="AboutMeParticles">
-          <Particles ></Particles>
+        <div className="AboutMeBackground">
+          {/* <Particles ></Particles> */}
           <AboutMeInfo className="AboutMeInfo" />
-          <Particles />
+          {/* <Particles /> */}
         </div>
         {/* <Particles className="AboutMeParticles"
           params={particleOpt} > <p>Hello</p></Particles> */}

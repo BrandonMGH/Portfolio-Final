@@ -3,7 +3,7 @@ import Particles from "react-particles-js";
 
 
 class Canvas extends Component {
-  state = { width: "0px", height: "px" };
+  state = { width: "px", height: "px" };
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener("resize", this.updateWindowDimensions);

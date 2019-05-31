@@ -60,7 +60,7 @@ class Main extends Component {
   render() {
     return (
       <Container>
-        <div className="background">
+        <div>
           {/* <MenuButton handleMouseDown={this.handleMouseDown}/> */}
           <Menu handleMouseDown={this.handleMouseDown}
             menuVisibility={this.state.visible} />

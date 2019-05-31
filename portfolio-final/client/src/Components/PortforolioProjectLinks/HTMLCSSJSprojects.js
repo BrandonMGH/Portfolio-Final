@@ -31,7 +31,7 @@ class HTMLCSSJS extends Component {
          <Bounce Top>
              <Row>
       
-          <h3 className="titleCol">HTML/CSS/Javascript Projects</h3> 
+          <h3 className="projBorder">HTML/CSS/Javascript Projects</h3> 
           {javascriptProj.map(properties => (
              <Bounce Top><div>
               <Col xs={12} md={4} className="ProjectCol hover">

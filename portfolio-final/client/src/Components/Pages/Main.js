@@ -4,13 +4,18 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 // import me from './me.jpg'
 import Fade from 'react-reveal/Fade';
+import './Main.css'
+
+
+// ** PAGES ** // 
 import Intro from './Intro'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
 // import MenuButton from '../MenuButton/MenuButton'
 import Portfolio from './Portfolio'
+import ContactMe from './ContactMe'
 import Menu from '../Menu/Menu.js'
-import './Main.css'
+
 
 // const styles = {
 //   root: {
@@ -65,6 +70,7 @@ class Main extends Component {
        <AboutMe />
        <Skills />
        <Portfolio />
+       <ContactMe />
         <footer>hi</footer>
       </Container>
 

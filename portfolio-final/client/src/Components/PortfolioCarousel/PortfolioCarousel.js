@@ -9,7 +9,6 @@ import got2 from './got2.jpg'
 import chatbox from './chatbox.jpg'
 import cameragirl from './cameragirl.jpg'
 import codeall from './codeall.jpg'
-import Slider from "react-slick";
 import './PortfolioCarousel.css'
 import All from '../PortforolioProjectLinks/All'
 import HTMLCSSJS from '../PortforolioProjectLinks/HTMLCSSJSprojects'

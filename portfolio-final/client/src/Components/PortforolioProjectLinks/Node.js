@@ -25,7 +25,7 @@ class Node extends Component {
        
          
         <Row>
-        <h3 className="titleCol">NODE Projects</h3> 
+        <h3 className="projBorder">NODE Projects</h3> 
           {nodeProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">

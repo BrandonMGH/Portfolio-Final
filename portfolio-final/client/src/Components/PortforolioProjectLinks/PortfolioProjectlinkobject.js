@@ -104,6 +104,8 @@ const ProjectObject = {
             portfolioLink: "https://codespot.herokuapp.com/"
         },
       
+        
+      
     ],
 
     reactProj: [
@@ -128,6 +130,7 @@ const ProjectObject = {
             paragraph:  "SparkItechs",
             portfolioLink: "https://spark-i-techs.herokuapp.com/" 
         },
+        
     ]
     
 

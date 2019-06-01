@@ -9,7 +9,7 @@ body {
 .particles{
     background-image: url('invertednightsky.jpg');
     height: 100vh; 
-    width: 100%; 
+    width: 1500px; 
     background-size: cover;
     position: fixed;
     right: 0;

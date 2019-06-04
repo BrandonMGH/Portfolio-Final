@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import LightSpeed from 'react-reveal/LightSpeed';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -32,6 +33,7 @@ class All extends Component {
     
     return (
       <Container>
+        <LightSpeed left>
         <Row>
           <h3 className="projBorder">HTML/CSS/Javascript Projects</h3> 
           {javascriptProj.map(properties => (
@@ -79,7 +81,7 @@ class All extends Component {
 
         </Row>
 
-
+        </LightSpeed>
       </Container>
       
 

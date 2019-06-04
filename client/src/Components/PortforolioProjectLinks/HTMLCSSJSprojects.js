@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Bounce from 'react-reveal/Bounce';
+import LightSpeed from 'react-reveal/LightSpeed';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -28,12 +28,12 @@ class HTMLCSSJS extends Component {
  
     return (
       <Container>
-         <Bounce Top>
+         <LightSpeed left>
              <Row>
       
           <h3 className="projBorder">HTML/CSS/Javascript Projects</h3> 
           {javascriptProj.map(properties => (
-             <Bounce Top><div>
+            <div>
               <Col xs={12} md={4} className="ProjectCol hover">
                 <a href={properties.portfolioLink}>
                   <div> 
@@ -42,11 +42,11 @@ class HTMLCSSJS extends Component {
                   </div>
                 </a>   
               </Col>
-            </div></Bounce>
+            </div>
           ))}
         
         </Row>
-        </Bounce>
+        </LightSpeed>
       </Container>
       
 

@@ -15,6 +15,7 @@ import Skills from './Skills'
 import Portfolio from './Portfolio'
 import ContactMe from './ContactMe'
 import Menu from '../Menu/Menu.js'
+import Footer from './Footer'
 
 
 // const styles = {
@@ -71,7 +72,7 @@ class Main extends Component {
        <Skills />
        <Portfolio />
        <ContactMe />
-        <footer>hi</footer>
+       <Footer />
       </Container>
 
 

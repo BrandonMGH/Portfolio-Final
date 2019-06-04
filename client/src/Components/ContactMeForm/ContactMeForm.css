@@ -1,0 +1,26 @@
+.contactMeContainer {
+    width: 1900px; 
+    color: black; 
+}
+
+#contact-form {
+    margin: auto;
+    width: 100%;
+}
+
+input, textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 500px; 
+    margin-bottom: 25px; 
+}
+
+input {
+    height: 25px; 
+}
+
+textarea {
+    height: 100px; 
+}

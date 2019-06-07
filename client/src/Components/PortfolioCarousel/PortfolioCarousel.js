@@ -43,7 +43,7 @@ handleButtonClickFour = () => {
   
     return (
     <div className="Black">
-        <h1 classname="photoCarouseltitle" align="middle">-PORTFOLIO-</h1>
+        <h1 className="photoCarouseltitle" align="middle">-PORTFOLIO-</h1>
         <div onClick={this.handleButtonClickOne} className="box">
         <img className="CarouselImg" src={got2} align="middle"></img>
         <div className="text">

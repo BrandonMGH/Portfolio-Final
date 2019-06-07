@@ -65,7 +65,7 @@ class Intro extends Component {
       return (
        <div>
           <Title />
-          <p>Hellon</p> 
+         
          <Particles className="particles"
               params={particleOpt}>
               </Particles>

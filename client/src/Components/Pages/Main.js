@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-// import me from './me.jpg'
+import ScrollIntoView from 'react-scroll-into-view'
 import Fade from 'react-reveal/Fade';
 import './Main.css'
 
@@ -11,68 +11,57 @@ import './Main.css'
 import Intro from './Intro'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
-// import MenuButton from '../MenuButton/MenuButton'
 import Portfolio from './Portfolio'
 import ContactMe from './ContactMe'
-import Menu from '../Menu/Menu.js'
 import Footer from './Footer'
 
 
-// const styles = {
-//   root: {
-//     fontFamily: "sans-serif",
-//     textAlign: "center",
-//     height: "100%",
-//     background: "#222",
-//     display: "flex",
-//     justifyContent: "center",
-//     alignItems: "center"
-//   }
-// };
+
 
 class Main extends Component {
-  constructor(props, context) {
-    super(props, context);
 
-    this.state = {
-      visible: false
-    };
 
-    this.handleMouseDown = this.handleMouseDown.bind(this);
-    this.toggleMenu = this.toggleMenu.bind(this);
-  }
-
-  handleMouseDown(e) {
-    this.toggleMenu();
-
-    console.log("clicked");
-    e.stopPropagation();
-  }
-
-  toggleMenu() {
-    this.setState(
-      {
-        visible: !this.state.visible
-      }
-    );
+  OnClickTest() {
+    return console.log("hi again")
   }
 
 
   render() {
+
+
     return (
       <Container>
-        <div>
-          {/* <MenuButton handleMouseDown={this.handleMouseDown}/> */}
-          <Menu handleMouseDown={this.handleMouseDown}
-            menuVisibility={this.state.visible} />
-        {/* </Col> */}
-        <Intro />
-        </div>
-       <AboutMe />
-       <Skills />
-       <Portfolio />
-       <ContactMe />
-       <Footer />
+        <nav role="navigation">
+          <div id="menuToggle">
+
+            <input type="checkbox" />
+
+            <span></span>
+            <span></span>
+            <span></span>
+
+
+            <ul id="menu">
+              <ScrollIntoView selector=".ContactMeScroll"><a><li>Contact Me</li></a></ScrollIntoView>
+              <a href="#"><li>About</li></a>
+              <a href="#"><li>Info</li></a>
+              <a href="#"><li>Contact</li></a>
+              <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+            </ul>
+          </div>
+        </nav>
+
+        <div ><Intro /></div>
+
+
+        <ScrollIntoView selector=".ContactMeScroll"><button>Test me</button></ScrollIntoView>
+        <button onClick={this.OnClickTest}>Console Log</button>
+        <div ><AboutMe /></div>
+        <div ><Skills /></div>
+        <div ><Portfolio /></div>
+        <div className="ContactMeScroll"><ContactMe /></div>
+        <Footer />
+
       </Container>
 
 

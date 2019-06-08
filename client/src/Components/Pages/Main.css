@@ -26,8 +26,8 @@ a:hover
 {
   display: block;
   position: fixed;
-  top: 50px;
-  left: 50px;
+  top: 25px;
+  left: 25px;
   
   z-index: 1;
   
@@ -120,11 +120,13 @@ a:hover
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 200px;
+  height: 1000px; 
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  
+  border-style: solid;
+  border-color: grey;
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;

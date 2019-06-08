@@ -42,11 +42,11 @@ class Main extends Component {
 
 
             <ul id="menu">
-              <ScrollIntoView selector=".ContactMeScroll"><a><li>Contact Me</li></a></ScrollIntoView>
-              <a href="#"><li>About</li></a>
-              <a href="#"><li>Info</li></a>
-              <a href="#"><li>Contact</li></a>
-              <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+              <ScrollIntoView selector=".AboutMeScroll"><a><li>About</li></a></ScrollIntoView>
+              <ScrollIntoView selector=".SkillsScroll"><a><li>Skills</li></a></ScrollIntoView>
+              <ScrollIntoView selector=".PortfolioScroll"><a><li>Portfolio</li></a></ScrollIntoView>
+              <ScrollIntoView selector=".ContactMeScroll"><a><li>Contact</li></a></ScrollIntoView>
+              <a href="#"><li>Return to Top</li></a>
             </ul>
           </div>
         </nav>
@@ -54,11 +54,10 @@ class Main extends Component {
         <div ><Intro /></div>
 
 
-        <ScrollIntoView selector=".ContactMeScroll"><button>Test me</button></ScrollIntoView>
-        <button onClick={this.OnClickTest}>Console Log</button>
-        <div ><AboutMe /></div>
-        <div ><Skills /></div>
-        <div ><Portfolio /></div>
+        
+        <div className="AboutMeScroll"><AboutMe /></div>
+        <div className="SkillsScroll"><Skills /></div>
+        <div className="PortfolioScroll" ><Portfolio /></div>
         <div className="ContactMeScroll"><ContactMe /></div>
         <Footer />
 

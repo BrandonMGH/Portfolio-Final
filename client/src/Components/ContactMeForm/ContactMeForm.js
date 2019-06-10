@@ -68,7 +68,10 @@ resetForm() {
               <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
 
                   <div className="control-group">
+             
                       <div className="form-group floating-label-form-group controls mb-0 pb-2">
+               
+                    
                           <label></label>
                           <input
                               type="text"

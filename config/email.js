@@ -1,4 +1,4 @@
 module.exports = {
-    USER: 'BrandonMichaelGene@gmail.com', 
+    USER: 'brandonmgeneharris@gmail.com', 
     PASS: process.env.EMAIL_PASSWORD
 }

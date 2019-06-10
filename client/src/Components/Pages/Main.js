@@ -42,10 +42,10 @@ class Main extends Component {
 
 
             <ul id="menu">
-              <ScrollIntoView selector=".AboutMeScroll"><a><li>About</li></a></ScrollIntoView>
-              <ScrollIntoView selector=".SkillsScroll"><a><li>Skills</li></a></ScrollIntoView>
-              <ScrollIntoView selector=".PortfolioScroll"><a><li>Portfolio</li></a></ScrollIntoView>
-              <ScrollIntoView selector=".ContactMeScroll"><a><li>Contact</li></a></ScrollIntoView>
+              <ScrollIntoView selector=".AboutMeScroll"><a><li id="pointer">About</li></a></ScrollIntoView>
+              <ScrollIntoView selector=".SkillsScroll"><a><li id="pointer">Skills</li></a></ScrollIntoView>
+              <ScrollIntoView selector=".PortfolioScroll"><a><li id="pointer">Portfolio</li></a></ScrollIntoView>
+              <ScrollIntoView selector=".ContactMeScroll"><a><li id="pointer">Contact</li></a></ScrollIntoView>
               <a href="#"><li>Return to Top</li></a>
             </ul>
           </div>

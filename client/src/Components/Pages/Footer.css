@@ -9,3 +9,10 @@
     border-top-style: solid;
     border-top-color: grey; 
 }
+
+#footerIcon{
+    border-style: solid;
+    border-color: grey; 
+    margin: 10px; 
+
+}

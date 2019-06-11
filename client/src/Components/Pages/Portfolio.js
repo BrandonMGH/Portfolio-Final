@@ -12,7 +12,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-       <p>.</p>
+       {/* <p>.</p> */}
         <PortfolioCarousel />
       </div> 
     );

@@ -11,6 +11,7 @@ import './Main.css'
 import Intro from './Intro'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
+import Bufferzone from './bufferzone'
 import Portfolio from './Portfolio'
 import ContactMe from './ContactMe'
 import Footer from './Footer'
@@ -57,6 +58,7 @@ class Main extends Component {
         
         <div className="AboutMeScroll"><AboutMe /></div>
         <div className="SkillsScroll"><Skills /></div>
+        <div><Bufferzone /></div>
         <div className="PortfolioScroll" ><Portfolio /></div>
         <div className="ContactMeScroll"><ContactMe /></div>
         <Footer />

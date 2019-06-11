@@ -23,8 +23,11 @@ class Skills extends Component {
   render() {
     return (
     <div className="SkillsBlack">
+      
       <h1>-SKILLS-</h1>
-      <Row>
+     
+
+      <Row >
         <Col md={4} className="SkillCol">
         <h3>HTML</h3>
        <img src={HTMLimage} className="AboutMe SkillsImg" alt="me"/>

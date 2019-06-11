@@ -35,7 +35,7 @@ class Main extends Component {
         <nav role="navigation">
           <div id="menuToggle">
 
-            <input type="checkbox" />
+           <input type="checkbox"/> 
 
             <span></span>
             <span></span>

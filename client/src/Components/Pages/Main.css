@@ -6,7 +6,7 @@ body
   /* make it look decent enough */
   background: #232323;
   color: #cdcdcd;
-  font-family: "Avenir Next", "Avenir", sans-serif;
+  font-family: 'Permanent Marker', cursive;
 }
 
 
@@ -132,7 +132,7 @@ a:hover
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
-  
+  font-family: 'Permanent Marker', cursive;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   

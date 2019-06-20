@@ -1,0 +1,39 @@
+
+
+.AboutMe {
+    text-align: center;
+    padding: 50px;   
+}
+
+.container {
+  list-style: none;
+  
+}
+
+.AboutMeInfo{
+    background: lime; 
+    z-index: 1500;
+    /* display: grid; */
+    
+   
+}
+
+
+
+.AboutMeBackground{
+    /* background-image: url('https://im-dev-proxy.imgix.net/https%3A%2F%2Fasset-1.theoutline.com%2Fv1%2Fduotone%2Fpreview%3Fend%3DFFFFFF%26start%3D000000%26url%3Dhttps%253A%252F%252Foutline-prod.imgix.net%252F20180814-4lPZtkgNJYAiRLfucz6O%253Fs%253D88620d79e7bf001b826427ecb65b6e35?auto=format&q=60&w=1280&s=37e8012dc860c8819fa1635e8fc876d5'); */
+    background-color: black; 
+    border-style: solid;
+    border-color: grey; 
+    padding: 0px; 
+    width: 1900px; 
+    /* display: flex;  */
+    /* overflow: hidden;  */
+    background-size: cover;
+    background-position: center;
+    /* border-radius: 50%; */
+
+    justify-content: center; 
+    z-index: 1000;
+}
+

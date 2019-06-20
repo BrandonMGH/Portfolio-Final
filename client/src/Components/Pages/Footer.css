@@ -1,0 +1,18 @@
+.Mainfooter{
+    padding: 20px; 
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 1900px; 
+    border-top-style: solid;
+    border-top-color: grey; 
+}
+
+#footerIcon{
+    border-style: solid;
+    border-color: grey; 
+    margin: 10px; 
+
+}

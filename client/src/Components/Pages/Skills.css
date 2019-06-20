@@ -1,0 +1,31 @@
+.SkillsBlack {
+    color: black;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 1900px; 
+}
+
+.SkillsImg, .SkillsImg2, .SkillsImg3 {
+    margin-left: 55px;
+    margin-right: auto; 
+    }
+
+
+h1, h3 {
+    text-align: center;
+  
+}
+
+h1 {
+    padding-top: 50px; 
+}
+
+.SkillCol {
+    width: 33.3%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    float:left; 
+
+}
